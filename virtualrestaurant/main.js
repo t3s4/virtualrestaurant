@@ -1,0 +1,1 @@
+alert('Welcome to our virtual restaurant. We will bring you to our imagination');

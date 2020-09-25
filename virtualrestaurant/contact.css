@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+header {
+    height: 150px;
+    text-align: center;
+}
+
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.308);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+body {
+    background-color: rgb(111, 134, 192);
+    background-image: url(images/Poke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;    
+}
+
+main {
+    line-height: 300%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+    input[type=text], select, textarea {
+        width: 100%; 
+         
+        border: 2px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+      }
+      
+      
+      input[type=submit] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+     
+      input[type=submit]:hover {
+        background-color: #4354b9;
+      }
+      
+      
+      .container {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+      }
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    font-size: 1.5em;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
